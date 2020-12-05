@@ -24,6 +24,7 @@ function clickHandler(){
         var translatedText = json.contents.translated;
         outputText.innerText = translatedText;  //output
     })
+    .catch(errorHandler);
     // outputText.innerText = "abs " + inputText.value;
 }
 
